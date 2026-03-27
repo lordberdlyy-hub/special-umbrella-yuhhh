@@ -26,9 +26,9 @@ const MODEL_MAPPING = {
   'gpt-4': 'z-ai/glm4.7',
   'gpt-4-turbo': 'zai-org/glm4.7',
   'gpt-4o': 'zai-org/GLM-5',
-  'claude-3-opus': 'zai-org/glm-4.7',
+  'claude-3-opus': 'z-ai/glm-4.7',
   'claude-3-sonnet': 'openai/gpt-oss-20b',
-  'gemini-pro': 'zai-org/GLM-5' 
+  'gemini-pro': 'z-ai/GLM-5' 
 };
 
 // Health check endpoint
