@@ -84,7 +84,7 @@ app.post('/v1/chat/completions', async (req, res) => {
         if (modelLower.includes('gpt-4') || modelLower.includes('claude-opus') || modelLower.includes('405b')) {
           nimModel = 'zai-org/GLM-5';
         } else if (modelLower.includes('claude') || modelLower.includes('gemini') || modelLower.includes('70b')) {
-          nimModel = 'meta/llama-3.1-70b-instruct';
+          nimModel = 'zai-org/GLM-5';
         } else {
           nimModel = 'meta/llama-3.1-8b-instruct';
         }
