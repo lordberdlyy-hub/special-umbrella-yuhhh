@@ -82,9 +82,9 @@ app.post('/v1/chat/completions', async (req, res) => {
       if (!nimModel) {
         const modelLower = model.toLowerCase();
         if (modelLower.includes('gpt-4') || modelLower.includes('claude-opus') || modelLower.includes('405b')) {
-          nimModel = 'zai-org/GLM-4_7';
+          nimModel = 'meta/llama-3.1-405b-instruct';
         } else if (modelLower.includes('claude') || modelLower.includes('gemini') || modelLower.includes('70b')) {
-          nimModel = 'zai-org/GLM-5';
+          nimModel = 'meta/llama-3.1-70b-instruct';
         } else {
           nimModel = 'meta/llama-3.1-8b-instruct';
         }
