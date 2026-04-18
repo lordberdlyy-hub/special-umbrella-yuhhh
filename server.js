@@ -26,7 +26,7 @@ const MODEL_MAPPING = {
   'gpt-4': 'z-ai/glm4.7',
   'gpt-4-turbo': 'zai-org/glm4.7',
   'gpt-4o': 'qwen/qwen3-coder-480b-a35b-instruct',
-  'claude-3-opus': 'z-ai/glm4_7',
+  'claude-3-opus': 'z-ai/glm-5.1',
   'claude-3-sonnet': 'deepseek-ai/deepseek-v3.2',
   'gemini-pro': 'z-ai/glm5' 
 };
